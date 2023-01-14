@@ -49,13 +49,49 @@ table {
 
 /* MY STYLES */
 
-body {
-    background:#cd453f;
+/* MVP PAGE */
+
+.container {
+	width: 740px;
+	margin: 0 auto;
 }
+
+body {
+    background: #CD453F;
+}
+
+/* ADD FONT FAMILY */
 
 img {
     margin-left: 1em;
     margin-right: 1em;
     width: 20%;
+    height: auto;
+}
+
+/* HOME PAGE */
+
+.nav {
+	display: inline;
+}
+
+a:link {
+	text-decoration: none;
+	color: white; 
+}
+
+/* ADD ACTIONS TO LINKS */
+
+h1 {
+	color: white;
+	background-color: #D27168;
+	font-size: 32px;
+	margin: auto;
+}
+
+/* PUT H1 IN THE CENTER */
+
+img {
+    width: 205%;
     height: auto;
 }
