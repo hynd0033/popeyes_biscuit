@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -12,12 +15,21 @@
         <nav>
 
             <div class="container">
-                <div class="flex-container">
-                    <ul>
-                        <li class="nav"><a href="home.html">Home</a></li>
-                        <li class="nav"><a href="#">Standings</a></li>
-                        <li class="nav"><a href="mvp.html">MVP</a></li>
-                    </ul>
+                <div class="navigation">
+                    <div class="flex-container">
+                        <div class="flex-item">
+                            <img class="logo" src="images/popeyes_logo.png" alt="popeyes logo">
+                        </div>
+                        <!-- ADD IMAGE AS A LIST ITEM -->
+                        <div class="flex-item">
+                            <ul>
+                                <li class="navlist"><a href="home.html">Home</a></li>
+                                <li class="navlist"><a href="schedule.html">Schedule/Standings</a></li>
+                                <li class="navlist"><a href="mvp.html">MVP</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
 
@@ -27,13 +39,19 @@
     <main>
         <!-- NEXT GAME SECTION -->
             <div class="container">
-                <h1>Next Game: January 15, 4-6 PM </h1>
+                <h2>Next Game: January 15, 4-6 PM </h1>
             </div>
         
         <!-- RECENT MVP SECTION -->
             <div class="container">
-                <h2>Most Recent MVP!</h2>
-                <img src="images/popeyes_mvp_nov20.png" alt="jordan mvp">
+                <h2>MVP of the Week!</h2>
+                <img src="images/popeyes_mvp_dec11.png" alt="cole mvp">
+            </div>
+        
+        <!-- RECENT EMAIL SECTION -->
+            <div class="container">
+                <h2>Recent Email</h2>
+                <img src="images/email_january10.png" alt="email for january 10">
             </div>
 
     </main>
