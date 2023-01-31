@@ -61,6 +61,9 @@ table {
 .flex-container {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	padding: 0.75em;
+
 }
 
 a:link {
@@ -69,25 +72,31 @@ a:link {
 }
 
 .logo {
-	width: 10%;
+	width: 40%;
 	height:auto
+}
+
+.navlist {
+	padding-top: 1.5em;
 }
 
 
 /* ADD ACTIONS TO LINKS */
 /* MVP PAGE */
 
+body {
+    background: #ec8782;
+}
+
 .container {
 	width: 740px;
+	height: auto;
 	margin: 0 auto;
 	border-right-style: solid;
 	border-left-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: white;
-}
-
-body {
-    background: #CD453F;
+	background: #CD453F;
 }
 
 table, th, td {
