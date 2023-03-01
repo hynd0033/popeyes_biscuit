@@ -89,7 +89,7 @@ body {
 }
 
 .container {
-	width: 740px;
+	width: 340px;
 	height: auto;
 	margin: 0 auto;
 	border-right-style: solid;
@@ -118,13 +118,13 @@ img {
 
 h1 {
 	color: white;
-	font-size: 32px;
+	font-size: 28px;
 	text-align: center;
 }
 
 h2 {
 	color: white;
-	font-size: 28px;
+	font-size: 22px;
 	text-align: center;
 }
 
@@ -163,3 +163,13 @@ img {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
+/*
+@media screen and (min-width: 1000px) {
+
+	.recent {
+		opacity: 0.1;
+	}
+
+}
+*/
